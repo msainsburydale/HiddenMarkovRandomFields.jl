@@ -1,0 +1,14 @@
+Manifest.toml
+.claude/settings.local.json
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+.DS_Store
+
+# Documentation build products (see also docs/.gitignore)
+docs/build/
+docs/node_modules/
+
+# Local coverage reports
+lcov.info
+coverage/

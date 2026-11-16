@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "HiddenMarkovRandomFields.jl: Fast simulation of hidden Markov random fields in Julia"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Sainsbury-Dale
+    given-names: Matthew
+    email: msainsburydale@gmail.com
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/msainsburydale/HiddenMarkovRandomFields.jl"
+url: "https://msainsburydale.github.io/HiddenMarkovRandomFields.jl/dev/"

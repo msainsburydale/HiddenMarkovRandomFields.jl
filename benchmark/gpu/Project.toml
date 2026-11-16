@@ -1,0 +1,13 @@
+[deps]
+Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+HiddenMarkovRandomFields = "2afc6646-90c1-4b2a-a779-1493ec3feb69"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[sources]
+HiddenMarkovRandomFields = {path = "../.."}

@@ -1,0 +1,219 @@
+table,simulation,parameters,grid,chains,algorithm,device,ms
+time per iteration,conditional,shared,32,1,Gibbs only,1 thread,0.00475749
+time per iteration,conditional,shared,32,1,Gibbs only,32 threads,0.00470674
+time per iteration,conditional,shared,32,1,Gibbs only,GPU,0.00104383
+time per iteration,conditional,shared,32,1,Gibbs + SW,1 thread,0.0244921
+time per iteration,conditional,shared,32,1,Gibbs + SW,32 threads,0.0245591
+time per iteration,conditional,shared,32,1,Gibbs + SW,GPU,0.0236844
+time per iteration,unconditional,shared,32,1,Gibbs only,1 thread,0.0047379
+time per iteration,unconditional,shared,32,1,Gibbs only,32 threads,0.00467392
+time per iteration,unconditional,shared,32,1,Gibbs only,GPU,0.00104403
+time per iteration,unconditional,shared,32,1,Gibbs + SW,1 thread,0.0220578
+time per iteration,unconditional,shared,32,1,Gibbs + SW,32 threads,0.022252
+time per iteration,unconditional,shared,32,1,Gibbs + SW,GPU,0.0219727
+time per iteration,conditional,shared,64,1,Gibbs only,1 thread,0.018512
+time per iteration,conditional,shared,64,1,Gibbs only,32 threads,0.00841581
+time per iteration,conditional,shared,64,1,Gibbs only,GPU,0.0039372
+time per iteration,conditional,shared,64,1,Gibbs + SW,1 thread,0.0959793
+time per iteration,conditional,shared,64,1,Gibbs + SW,32 threads,0.0566556
+time per iteration,conditional,shared,64,1,Gibbs + SW,GPU,0.0256808
+time per iteration,unconditional,shared,64,1,Gibbs only,1 thread,0.0184613
+time per iteration,unconditional,shared,64,1,Gibbs only,32 threads,0.00977982
+time per iteration,unconditional,shared,64,1,Gibbs only,GPU,0.00392506
+time per iteration,unconditional,shared,64,1,Gibbs + SW,1 thread,0.0852253
+time per iteration,unconditional,shared,64,1,Gibbs + SW,32 threads,0.0510904
+time per iteration,unconditional,shared,64,1,Gibbs + SW,GPU,0.0234622
+time per iteration,conditional,shared,128,1,Gibbs only,1 thread,0.0741462
+time per iteration,conditional,shared,128,1,Gibbs only,32 threads,0.0185741
+time per iteration,conditional,shared,128,1,Gibbs only,GPU,0.00555526
+time per iteration,conditional,shared,128,1,Gibbs + SW,1 thread,0.381213
+time per iteration,conditional,shared,128,1,Gibbs + SW,32 threads,0.192556
+time per iteration,conditional,shared,128,1,Gibbs + SW,GPU,0.0274897
+time per iteration,unconditional,shared,128,1,Gibbs only,1 thread,0.0729107
+time per iteration,unconditional,shared,128,1,Gibbs only,32 threads,0.0192418
+time per iteration,unconditional,shared,128,1,Gibbs only,GPU,0.00553353
+time per iteration,unconditional,shared,128,1,Gibbs + SW,1 thread,0.340853
+time per iteration,unconditional,shared,128,1,Gibbs + SW,32 threads,0.189168
+time per iteration,unconditional,shared,128,1,Gibbs + SW,GPU,0.0251508
+time per iteration,conditional,shared,256,1,Gibbs only,1 thread,0.294899
+time per iteration,conditional,shared,256,1,Gibbs only,32 threads,0.0333903
+time per iteration,conditional,shared,256,1,Gibbs only,GPU,0.00552289
+time per iteration,conditional,shared,256,1,Gibbs + SW,1 thread,1.5259
+time per iteration,conditional,shared,256,1,Gibbs + SW,32 threads,0.402658
+time per iteration,conditional,shared,256,1,Gibbs + SW,GPU,0.0342482
+time per iteration,unconditional,shared,256,1,Gibbs only,1 thread,0.292727
+time per iteration,unconditional,shared,256,1,Gibbs only,32 threads,0.0322188
+time per iteration,unconditional,shared,256,1,Gibbs only,GPU,0.00555093
+time per iteration,unconditional,shared,256,1,Gibbs + SW,1 thread,1.35653
+time per iteration,unconditional,shared,256,1,Gibbs + SW,32 threads,0.35475
+time per iteration,unconditional,shared,256,1,Gibbs + SW,GPU,0.0298113
+time per iteration,conditional,shared,512,1,Gibbs only,1 thread,1.18258
+time per iteration,conditional,shared,512,1,Gibbs only,32 threads,0.0759899
+time per iteration,conditional,shared,512,1,Gibbs only,GPU,0.008474
+time per iteration,conditional,shared,512,1,Gibbs + SW,1 thread,6.18267
+time per iteration,conditional,shared,512,1,Gibbs + SW,32 threads,1.01746
+time per iteration,conditional,shared,512,1,Gibbs + SW,GPU,0.132114
+time per iteration,unconditional,shared,512,1,Gibbs only,1 thread,1.16961
+time per iteration,unconditional,shared,512,1,Gibbs only,32 threads,0.0720163
+time per iteration,unconditional,shared,512,1,Gibbs only,GPU,0.0084047
+time per iteration,unconditional,shared,512,1,Gibbs + SW,1 thread,5.3946
+time per iteration,unconditional,shared,512,1,Gibbs + SW,32 threads,0.898995
+time per iteration,unconditional,shared,512,1,Gibbs + SW,GPU,0.0800627
+time per iteration,conditional,shared,1024,1,Gibbs only,1 thread,4.74318
+time per iteration,conditional,shared,1024,1,Gibbs only,32 threads,0.327335
+time per iteration,conditional,shared,1024,1,Gibbs only,GPU,0.0423508
+time per iteration,conditional,shared,1024,1,Gibbs + SW,1 thread,32.7815
+time per iteration,conditional,shared,1024,1,Gibbs + SW,32 threads,4.09763
+time per iteration,conditional,shared,1024,1,Gibbs + SW,GPU,0.48017
+time per iteration,unconditional,shared,1024,1,Gibbs only,1 thread,4.63767
+time per iteration,unconditional,shared,1024,1,Gibbs only,32 threads,0.282024
+time per iteration,unconditional,shared,1024,1,Gibbs only,GPU,0.0423087
+time per iteration,unconditional,shared,1024,1,Gibbs + SW,1 thread,25.5835
+time per iteration,unconditional,shared,1024,1,Gibbs + SW,32 threads,3.06978
+time per iteration,unconditional,shared,1024,1,Gibbs + SW,GPU,0.294085
+time per iteration,conditional,shared,32,30,Gibbs only,1 thread,0.141651
+time per iteration,conditional,shared,32,30,Gibbs only,32 threads,0.00634577
+time per iteration,conditional,shared,32,30,Gibbs only,GPU,0.00106148
+time per iteration,conditional,shared,32,30,Gibbs + SW,1 thread,0.737295
+time per iteration,conditional,shared,32,30,Gibbs + SW,32 threads,0.0289216
+time per iteration,conditional,shared,32,30,Gibbs + SW,GPU,0.0311354
+time per iteration,unconditional,shared,32,30,Gibbs only,1 thread,0.141694
+time per iteration,unconditional,shared,32,30,Gibbs only,32 threads,0.00561978
+time per iteration,unconditional,shared,32,30,Gibbs only,GPU,0.00106138
+time per iteration,unconditional,shared,32,30,Gibbs + SW,1 thread,0.661896
+time per iteration,unconditional,shared,32,30,Gibbs + SW,32 threads,0.0262077
+time per iteration,unconditional,shared,32,30,Gibbs + SW,GPU,0.0292439
+time per iteration,conditional,shared,64,30,Gibbs only,1 thread,0.56106
+time per iteration,conditional,shared,64,30,Gibbs only,32 threads,0.0216866
+time per iteration,conditional,shared,64,30,Gibbs only,GPU,0.00395247
+time per iteration,conditional,shared,64,30,Gibbs + SW,1 thread,2.89164
+time per iteration,conditional,shared,64,30,Gibbs + SW,32 threads,0.109642
+time per iteration,conditional,shared,64,30,Gibbs + SW,GPU,0.0483749
+time per iteration,unconditional,shared,64,30,Gibbs only,1 thread,0.558814
+time per iteration,unconditional,shared,64,30,Gibbs only,32 threads,0.0217548
+time per iteration,unconditional,shared,64,30,Gibbs only,GPU,0.004013
+time per iteration,unconditional,shared,64,30,Gibbs + SW,1 thread,2.57842
+time per iteration,unconditional,shared,64,30,Gibbs + SW,32 threads,0.0980513
+time per iteration,unconditional,shared,64,30,Gibbs + SW,GPU,0.0449241
+time per iteration,conditional,shared,128,30,Gibbs only,1 thread,2.24262
+time per iteration,conditional,shared,128,30,Gibbs only,32 threads,0.0864795
+time per iteration,conditional,shared,128,30,Gibbs only,GPU,0.0107341
+time per iteration,conditional,shared,128,30,Gibbs + SW,1 thread,11.5266
+time per iteration,conditional,shared,128,30,Gibbs + SW,32 threads,0.440147
+time per iteration,conditional,shared,128,30,Gibbs + SW,GPU,0.154683
+time per iteration,unconditional,shared,128,30,Gibbs only,1 thread,2.21319
+time per iteration,unconditional,shared,128,30,Gibbs only,32 threads,0.0847166
+time per iteration,unconditional,shared,128,30,Gibbs only,GPU,0.0107874
+time per iteration,unconditional,shared,128,30,Gibbs + SW,1 thread,10.3141
+time per iteration,unconditional,shared,128,30,Gibbs + SW,32 threads,0.393206
+time per iteration,unconditional,shared,128,30,Gibbs + SW,GPU,0.132489
+time per iteration,conditional,shared,256,30,Gibbs only,1 thread,8.96127
+time per iteration,conditional,shared,256,30,Gibbs only,32 threads,0.337854
+time per iteration,conditional,shared,256,30,Gibbs only,GPU,0.0321816
+time per iteration,conditional,shared,256,30,Gibbs + SW,1 thread,46.2848
+time per iteration,conditional,shared,256,30,Gibbs + SW,32 threads,1.82948
+time per iteration,conditional,shared,256,30,Gibbs + SW,GPU,0.547569
+time per iteration,unconditional,shared,256,30,Gibbs only,1 thread,8.87039
+time per iteration,unconditional,shared,256,30,Gibbs only,32 threads,0.335123
+time per iteration,unconditional,shared,256,30,Gibbs only,GPU,0.0322532
+time per iteration,unconditional,shared,256,30,Gibbs + SW,1 thread,40.9368
+time per iteration,unconditional,shared,256,30,Gibbs + SW,32 threads,1.66074
+time per iteration,unconditional,shared,256,30,Gibbs + SW,GPU,0.485925
+time per iteration,conditional,shared,512,30,Gibbs only,1 thread,35.6026
+time per iteration,conditional,shared,512,30,Gibbs only,32 threads,1.35047
+time per iteration,conditional,shared,512,30,Gibbs only,GPU,0.129325
+time per iteration,conditional,shared,512,30,Gibbs + SW,1 thread,185.397
+time per iteration,conditional,shared,512,30,Gibbs + SW,32 threads,28.5255
+time per iteration,conditional,shared,512,30,Gibbs + SW,GPU,2.10176
+time per iteration,unconditional,shared,512,30,Gibbs only,1 thread,35.1134
+time per iteration,unconditional,shared,512,30,Gibbs only,32 threads,1.33268
+time per iteration,unconditional,shared,512,30,Gibbs only,GPU,0.129536
+time per iteration,unconditional,shared,512,30,Gibbs + SW,1 thread,162.631
+time per iteration,unconditional,shared,512,30,Gibbs + SW,32 threads,16.099
+time per iteration,unconditional,shared,512,30,Gibbs + SW,GPU,1.86074
+time per iteration,conditional,shared,1024,30,Gibbs only,1 thread,142.691
+time per iteration,conditional,shared,1024,30,Gibbs only,32 threads,8.46764
+time per iteration,conditional,shared,1024,30,Gibbs only,GPU,0.505522
+time per iteration,conditional,shared,1024,30,Gibbs + SW,1 thread,984.535
+time per iteration,conditional,shared,1024,30,Gibbs + SW,32 threads,121.842
+time per iteration,conditional,shared,1024,30,Gibbs + SW,GPU,8.40083
+time per iteration,unconditional,shared,1024,30,Gibbs only,1 thread,140.151
+time per iteration,unconditional,shared,1024,30,Gibbs only,32 threads,6.42942
+time per iteration,unconditional,shared,1024,30,Gibbs only,GPU,0.504319
+time per iteration,unconditional,shared,1024,30,Gibbs + SW,1 thread,767.143
+time per iteration,unconditional,shared,1024,30,Gibbs + SW,32 threads,110.584
+time per iteration,unconditional,shared,1024,30,Gibbs + SW,GPU,7.34069
+time per iteration,conditional,shared,32,1024,Gibbs only,1 thread,4.83006
+time per iteration,conditional,shared,32,1024,Gibbs only,32 threads,0.173683
+time per iteration,conditional,shared,32,1024,Gibbs only,GPU,0.0183076
+time per iteration,conditional,shared,32,1024,Gibbs + SW,1 thread,25.2268
+time per iteration,conditional,shared,32,1024,Gibbs + SW,32 threads,0.898103
+time per iteration,conditional,shared,32,1024,Gibbs + SW,GPU,0.279943
+time per iteration,unconditional,shared,32,1024,Gibbs only,1 thread,4.82389
+time per iteration,unconditional,shared,32,1024,Gibbs only,32 threads,0.172122
+time per iteration,unconditional,shared,32,1024,Gibbs only,GPU,0.0182782
+time per iteration,unconditional,shared,32,1024,Gibbs + SW,1 thread,22.5541
+time per iteration,unconditional,shared,32,1024,Gibbs + SW,32 threads,0.804674
+time per iteration,unconditional,shared,32,1024,Gibbs + SW,GPU,0.242507
+time per iteration,conditional,shared,64,1024,Gibbs only,1 thread,19.0338
+time per iteration,conditional,shared,64,1024,Gibbs only,32 threads,0.677625
+time per iteration,conditional,shared,64,1024,Gibbs only,GPU,0.0632567
+time per iteration,conditional,shared,64,1024,Gibbs + SW,1 thread,97.5841
+time per iteration,conditional,shared,64,1024,Gibbs + SW,32 threads,3.48843
+time per iteration,conditional,shared,64,1024,Gibbs + SW,GPU,1.03444
+time per iteration,unconditional,shared,64,1024,Gibbs only,1 thread,18.923
+time per iteration,unconditional,shared,64,1024,Gibbs only,32 threads,0.673585
+time per iteration,unconditional,shared,64,1024,Gibbs only,GPU,0.0638315
+time per iteration,unconditional,shared,64,1024,Gibbs + SW,1 thread,87.3643
+time per iteration,unconditional,shared,64,1024,Gibbs + SW,32 threads,3.11473
+time per iteration,unconditional,shared,64,1024,Gibbs + SW,GPU,0.869813
+time per iteration,conditional,shared,128,1024,Gibbs only,1 thread,75.4744
+time per iteration,conditional,shared,128,1024,Gibbs only,32 threads,2.7278
+time per iteration,conditional,shared,128,1024,Gibbs only,GPU,0.254394
+time per iteration,conditional,shared,128,1024,Gibbs + SW,1 thread,390.514
+time per iteration,conditional,shared,128,1024,Gibbs + SW,32 threads,14.0034
+time per iteration,conditional,shared,128,1024,Gibbs + SW,GPU,4.64624
+time per iteration,unconditional,shared,128,1024,Gibbs only,1 thread,75.1282
+time per iteration,unconditional,shared,128,1024,Gibbs only,32 threads,2.66899
+time per iteration,unconditional,shared,128,1024,Gibbs only,GPU,0.256279
+time per iteration,unconditional,shared,128,1024,Gibbs + SW,1 thread,350.804
+time per iteration,unconditional,shared,128,1024,Gibbs + SW,32 threads,12.4641
+time per iteration,unconditional,shared,128,1024,Gibbs + SW,GPU,3.40716
+time per iteration,conditional,shared,256,1024,Gibbs only,1 thread,305.985
+time per iteration,conditional,shared,256,1024,Gibbs only,32 threads,11.0076
+time per iteration,conditional,shared,256,1024,Gibbs only,GPU,1.00565
+time per iteration,conditional,shared,256,1024,Gibbs + SW,1 thread,1565.39
+time per iteration,conditional,shared,256,1024,Gibbs + SW,32 threads,58.1207
+time per iteration,conditional,shared,256,1024,Gibbs + SW,GPU,24.159
+time per iteration,unconditional,shared,256,1024,Gibbs only,1 thread,299.046
+time per iteration,unconditional,shared,256,1024,Gibbs only,32 threads,10.6717
+time per iteration,unconditional,shared,256,1024,Gibbs only,GPU,1.0039
+time per iteration,unconditional,shared,256,1024,Gibbs + SW,1 thread,1396.42
+time per iteration,unconditional,shared,256,1024,Gibbs + SW,32 threads,50.2139
+time per iteration,unconditional,shared,256,1024,Gibbs + SW,GPU,15.8222
+per-chain parameters,unconditional,shared,64,1024,Gibbs only,32 threads,0.673912
+per-chain parameters,unconditional,per chain,64,1024,Gibbs only,32 threads,0.674498
+per-chain parameters,unconditional,shared,64,1024,Gibbs only,GPU,0.0632758
+per-chain parameters,unconditional,per chain,64,1024,Gibbs only,GPU,0.0655334
+per-chain parameters,unconditional,shared,64,1024,Gibbs + SW,32 threads,3.11215
+per-chain parameters,unconditional,per chain,64,1024,Gibbs + SW,32 threads,3.11785
+per-chain parameters,unconditional,shared,64,1024,Gibbs + SW,GPU,0.864592
+per-chain parameters,unconditional,per chain,64,1024,Gibbs + SW,GPU,0.875606
+per-chain parameters,unconditional,shared,128,1024,Gibbs only,32 threads,2.6766
+per-chain parameters,unconditional,per chain,128,1024,Gibbs only,32 threads,2.68027
+per-chain parameters,unconditional,shared,128,1024,Gibbs only,GPU,0.256168
+per-chain parameters,unconditional,per chain,128,1024,Gibbs only,GPU,0.267901
+per-chain parameters,unconditional,shared,128,1024,Gibbs + SW,32 threads,12.4051
+per-chain parameters,unconditional,per chain,128,1024,Gibbs + SW,32 threads,12.4094
+per-chain parameters,unconditional,shared,128,1024,Gibbs + SW,GPU,3.42341
+per-chain parameters,unconditional,per chain,128,1024,Gibbs + SW,GPU,3.4712
+per-chain parameters,unconditional,shared,256,1024,Gibbs only,32 threads,10.8008
+per-chain parameters,unconditional,per chain,256,1024,Gibbs only,32 threads,10.8232
+per-chain parameters,unconditional,shared,256,1024,Gibbs only,GPU,1.01577
+per-chain parameters,unconditional,per chain,256,1024,Gibbs only,GPU,1.06401
+per-chain parameters,unconditional,shared,256,1024,Gibbs + SW,32 threads,50.2926
+per-chain parameters,unconditional,per chain,256,1024,Gibbs + SW,32 threads,50.569
+per-chain parameters,unconditional,shared,256,1024,Gibbs + SW,GPU,16.1144
+per-chain parameters,unconditional,per chain,256,1024,Gibbs + SW,GPU,16.2531
+training data,unconditional,per chain,64,1024,Gibbs + SW,32 threads,619.462
+training data,unconditional,per chain,64,1024,Gibbs + SW,GPU,179.745
