@@ -18,6 +18,8 @@ jobs:
         with:
           version: '1'
       - uses: julia-actions/cache@v2
+      - name: Install dependencies # and the General registry, which Pkg.resolve in docs/make.jl does not install
+        run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
       - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # authentication with GitHub Actions token
