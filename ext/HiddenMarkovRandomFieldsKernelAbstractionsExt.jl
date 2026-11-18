@@ -365,9 +365,9 @@ end
     @inbounds (bonds[e] != 0x00) | ((bonds[e - nchains] & 0x01) != 0x00) | ((bonds[e - cstride] & 0x02) != 0x00)
 
 # Root of x, halving the path to it. Parents always have smaller indices than their children, so the forest has no
-# cycles, and the parent of a label only ever changes to one of its ancestors. A parent read while another thread changes
-# it (a stale one) is therefore still an ancestor, so the loads and stores here are plain ones (which a GPU can cache),
-# and only the links of roots, in _union!, are atomic.
+# cycles. The parent of a label only ever changes to a label of its own tree, or of a tree that _union! is joining to it,
+# so a parent read while another thread changes it (a stale one) still leads to a label that ends up in the same tree.
+# The loads and stores here are therefore plain ones (which a GPU can cache), and only the links in _union! are atomic.
 @inline function _find!(parent, x::Int32)
     @inbounds while true
         px = parent[x]
@@ -379,8 +379,10 @@ end
     end
 end
 
-# Joins the trees of a and b: the larger root is linked to the smaller one if it is still a root (compare-and-swap);
-# otherwise the attempt is repeated from its new parent
+# Joins the trees of a and b: the larger root is linked to the smaller one with an atomic minimum (Playne and Hawick,
+# 2018). If the larger one is no longer a root, the minimum may lower the parent of a label that is not a root; its
+# previous parent is then joined to the smaller root in turn, so that no link is lost. (A compare-and-swap, linking only
+# roots, compiles to a system-scope atomic with some versions of CUDA.jl, which makes this kernel about 50 times slower.)
 @inline function _union!(parent, a::Int32, b::Int32)
     while true
         a = _find!(parent, a)
@@ -389,8 +391,8 @@ end
         if a < b
             a, b = b, a
         end
-        old, success = Atomix.@atomicreplace parent[a] a => b
-        success && return nothing
+        old = first(Atomix.@atomic :monotonic parent[a] min b)
+        old == a && return nothing
         a = old
     end
 end
